@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+html,h1,body {
+    background-color: salmon;
+}
+
+li,ul,br {
+    background-color: salmon;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    font-variant: small-caps;
+}
