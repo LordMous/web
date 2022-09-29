@@ -1,0 +1,31 @@
+//20 ig adjuk ossze a szamokat 20 faktorialis
+/*
+let ossz = 0
+for(let i=1;i<21;i++){
+    ossz+=i
+}
+document.write("20ig a számok ="+ossz)
+
+let szor = 1
+for(let i =1; i <21; i++){
+    szor*=i;
+}
+document.write(`20ig a számok = ${szor}`)
+*/
+
+/*
+let szor = 8;
+for(let i = 1; i<=10;i++){
+    document.write(`<br>${i} x ${szor} = ${i*szor}`)
+}
+*/
+//2020 és 80 között a szököevek 
+
+let szam = 4;
+for(let i = 2020; i <=2080;i++){
+    if(i == 2020){
+        document.write(`<br> szökőév volt : ${i} `)
+    }else if(i%4==0){
+        document.write(`<br> szökőév lesz : ${i} `)
+    }
+}
